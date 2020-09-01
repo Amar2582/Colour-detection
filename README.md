@@ -3,13 +3,13 @@
 - I created a small project which detects basic colours when shown to the camera. The colours has predefined upper and lower limits so that we can detect the colours and name it accordingly.
 
   - Code of colour detection
-...
+```
 import cv2
 import numpy as np
 import imutils
-...
+```
 
-...
+```
 cap=cv2.VideoCapture(0)
 cap.set(3,640)
 cap.set(4,480)
@@ -132,4 +132,4 @@ while True:
         
 cap.release(0)
 cv2.destroyAllWindows()
-...
+```
